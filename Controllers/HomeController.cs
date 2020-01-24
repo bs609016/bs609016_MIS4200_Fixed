@@ -15,7 +15,7 @@ namespace bs609016_MIS4200_Fixed.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "My MIS4200 description.";
+            ViewBag.Message = "A little bit about me.";
 
             return View();
         }
