@@ -12,7 +12,7 @@ namespace bs609016_MIS4200_Fixed.Models
         public int courseId { get; set; }
         public virtual Course Course { get; set; }
 
-        public virtual Professor Professor { get; set; }
+       
 
 
     }

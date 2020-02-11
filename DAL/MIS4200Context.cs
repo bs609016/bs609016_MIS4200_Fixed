@@ -13,5 +13,9 @@ namespace bs609016_MIS4200_Fixed.DAL
         {
             
         }
+
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<CourseDetail> CourseDetails { get; set; }
     }
 }
